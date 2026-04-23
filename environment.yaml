@@ -1,0 +1,25 @@
+name: oadmet_pxr
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python==3.11
+  - rdkit
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - numpy
+  - lightgbm
+  - tqdm
+  - fsspec
+  - datasets
+  - scipy
+  - biotite
+  - nglview
+  - mdanalysis
+
+  - pip:
+      - git+https://github.com/PatWalters/useful_rdkit_utils.git@master
+      - gradio-client
